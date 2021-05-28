@@ -22,7 +22,7 @@ const ContactList = (props) => {
             <h3>
                 Contact List
             </h3>
-                <Link to = "/add">
+                <Link to = "/React-Contacts-Manager/add">
                     <button className = "ui button blue right">Add Contact</button>
                 </Link>
             <div className="ui celled list">{renderContactList}</div>
